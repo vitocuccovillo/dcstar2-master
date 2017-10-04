@@ -155,24 +155,25 @@ def generate(rndm, args):
 
 def evaluate(individual, args):
     fitness = 10000
-    try:
-        i = 1
-        cityIndex = individual.index(i)
-        cityName = city_names[cityIndex]
-        while cityName != end_city:
-            city: City = next((x for x in cities if x.name == cityName), None)
-            i+=1
+    if city_names[individual.index(1)] == start_city and city_names[individual.index(max(individual))] == end_city:
+        try:
+            i = 1
             cityIndex = individual.index(i)
             cityName = city_names[cityIndex]
-            cc =  next((x for x in city.adjacentCities if x[0] == cityName), None)
-            if cc is None:
-                fitness = 10000
-                break
-            else:
-                (c,cost) = cc
-                fitness += cost
-    except:
-        pass
+            while cityName != end_city:
+                city: City = next((x for x in cities if x.name == cityName), None)
+                i+=1
+                cityIndex = individual.index(i)
+                cityName = city_names[cityIndex]
+                cc =  next((x for x in city.adjacentCities if x[0] == cityName), None)
+                if cc is None:
+                    fitness = 5000
+                    break
+                else:
+                    (c,cost) = cc
+                    fitness += cost
+        except:
+            pass
     return -fitness
 
 # END GENETIC FUNCTIONS
