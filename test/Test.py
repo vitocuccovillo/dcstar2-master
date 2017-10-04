@@ -14,7 +14,6 @@ cities = []
 start_city = "Oradea"
 end_city = "Neamt"
 
-
 def CreateCitiesGraph():
     # creare le citta
     for c in city_names:
@@ -108,6 +107,7 @@ def CreateCitiesGraph():
     cc = next((x for x in cities if x.name == "Giurgiu"), None)
     cc.addAdjacent("Bucarest", 90)
 
+# GENETIC FUNCTIONS
 
 def gen(rndm,args):
     individual = [start_city]
@@ -134,6 +134,7 @@ def eval(individual, args): #fitness function: negativo della somma delle distan
                 totalCost += cost
     return -totalCost
 
+# END GENETIC FUNCTIONS
 
 
 # ----- MAIN START ----- #
@@ -152,7 +153,7 @@ bestGASol = solAdapter.AdaptGASolution(bestIndividual)
 
 dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
 
-#cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
-cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+#cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
 solution = astar(cp)
 print("SOLUZIONE A*:" + str(solution))

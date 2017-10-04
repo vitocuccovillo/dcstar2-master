@@ -69,7 +69,7 @@ class CityProblem(Problem):
         cityIndex = self.city_names.index(path[-1][0])
         endCityIndex = self.city_names.index(self.endCity)
         cost = self.distancesMatrix[cityIndex][endCityIndex]
-        return (cost,)
+        return (cost,len(path))
 
 
     def successors(self, state):
