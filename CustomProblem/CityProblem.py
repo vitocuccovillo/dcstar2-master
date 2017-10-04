@@ -20,7 +20,7 @@ class CityProblem(Problem):
         self.solutionAdapter = _solAdapter
         self.start_state = (self.startCity,0)
         self.unique_successors = False
-        self.CreateCitiesGraph()
+        self.CreateCitiesGraph() #genera il grafo delle citta
 
 
     #PROBLEM ABSTRACT METHODS IMPLEMENTATION
@@ -46,11 +46,11 @@ class CityProblem(Problem):
         else:
             return (result,)
 
-    def h(self, path):
-        #una semplice euristica: se una città è ripetuta nel path assegno un costo di 100
-        # altrimenti assegno 10, cerco di evitare i loop
-        result = 0
-        return (result,)
+    def h(self, path): #uso come euristica la distanza euclidea della citta corrente dalla finale
+        distanceFromNeamt = [240,200,220,160,250,220,230,250,220,160,100,160,140,200,140,170,220,100,60,0]
+        cityIndex = self.city_names.index(path[-1][0])
+        cost = distanceFromNeamt[cityIndex]
+        return (cost,)
         # count = 0
         # if len(path) == 1:
         #     result = 1

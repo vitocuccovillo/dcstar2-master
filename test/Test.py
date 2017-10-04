@@ -120,7 +120,6 @@ def gen(rndm,args):
 
 
 def eval(individual, args): #fitness function: negativo della somma delle distanze
-    i = 1
     totalCost = 0
     if individual[0] != start_city or individual[-1] != end_city:
         totalCost = 10000
@@ -153,7 +152,7 @@ bestGASol = solAdapter.AdaptGASolution(bestIndividual)
 
 dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
 
-#cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
-cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+#cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
 solution = astar(cp)
 print("SOLUZIONE A*:" + str(solution))
