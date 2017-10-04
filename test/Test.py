@@ -134,13 +134,45 @@ def eval(individual, args): #fitness function: negativo della somma delle distan
                 (c,cost) = prevCity
                 totalCost += cost
     return -totalCost
+
+
+def generate(rndm, args):
+    startIndex = city_names.index(start_city)
+    individual = [0]*len(city_names) #individuo è un array di n elementi, ho 0 se non passo dalla citta, i altrimenti
+    individual[startIndex] = 1
+    newCity = start_city
+    i = 1
+    while newCity != end_city:
+        city: City = next((x for x in cities if x.name == newCity), None)
+        succIndex = random.randint(0,len(city.adjacentCities)-1)
+        succCity = city.adjacentCities[succIndex][0]
+        newCity = succCity
+        cityIndex = city_names.index(succCity)
+        if individual[cityIndex] == 0: #se non sono mai passato da questa città la aggiunge al path
+            i += 1
+            individual[cityIndex] = i
+    return individual
+
+def evaluate(individual, args):
+    fitness = 0
+    i = 1
+    cityIndex = individual.index(i)
+    cityName = city_names[cityIndex]
+    while cityName != end_city:
+        city: City = next((x for x in cities if x.name == cityName), None)
+        i+=1
+        cityIndex = individual.index(i)
+        cityName = city_names[cityIndex]
+        fitness += next((x for x in city.adjacentCities if x[0] == cityName), None)[1]
+    return -fitness
+
 # END GENETIC FUNCTIONS
 
 
 # ----- MAIN START ----- #
 CreateCitiesGraph()
 
-inspyredWp = InspyredImpl(gen,eval) # genera una soluzione con il GA
+inspyredWp = InspyredImpl(generate,evaluate) # genera una soluzione con il GA
 genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=50,
                                              num_elites=1,
                                              mutation_rate=0.1,
