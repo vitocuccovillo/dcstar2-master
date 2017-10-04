@@ -66,10 +66,15 @@ class CityProblem(Problem):
             return (result,)
 
     def h(self, path): #uso come euristica la distanza euclidea della citta corrente dalla finale
+        result = 0
         cityIndex = self.city_names.index(path[-1][0])
         endCityIndex = self.city_names.index(self.endCity)
         cost = self.distancesMatrix[cityIndex][endCityIndex]
-        return (cost,len(path))
+        if self.distance is not None:
+            result = (cost, len(path))
+        else:
+            result = (cost,)
+        return result
 
 
     def successors(self, state):
