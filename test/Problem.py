@@ -10,7 +10,7 @@ class Problem(ABC):
         pass
 
     @abstractmethod
-    def h(self, solutions_set):
+    def h(self, path):
         pass
 
     # @abstractmethod
@@ -18,9 +18,9 @@ class Problem(ABC):
     #     pass
 
     @abstractmethod
-    def goal(self, solutions_set):
+    def goal(self, state):
         pass
 
     @abstractmethod
-    def successors(self, solutions_set):
+    def successors(self, state):
         pass

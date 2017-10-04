@@ -45,9 +45,8 @@ class CityProblem(Problem):
 
     #PROBLEM ABSTRACT METHODS IMPLEMENTATION
 
-    def goal(self, path):
-        pathLen = len(path)
-        return path[0] == self.endCity
+    def goal(self, state):
+        return state[0] == self.endCity
 
     def g(self, path):
         result = 0

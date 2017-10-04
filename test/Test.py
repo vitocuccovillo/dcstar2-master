@@ -140,7 +140,7 @@ def eval(individual, args): #fitness function: negativo della somma delle distan
 CreateCitiesGraph()
 
 inspyredWp = InspyredImpl(gen,eval) # genera una soluzione con il GA
-genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=100,
+genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=50,
                                              num_elites=1,
                                              mutation_rate=0.1,
                                              pop_size=10)
@@ -152,7 +152,7 @@ bestGASol = solAdapter.AdaptGASolution(bestIndividual)
 
 dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
 
-cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
-#cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+#cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
 solution = astar(cp)
 print("SOLUZIONE A*:" + str(solution))
