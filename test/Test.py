@@ -11,8 +11,8 @@ city_names = ["Arad", "Oradea", "Zerind", "Sibiu", "Timisoara", "Lugoj", "Mehadi
               "Drobeta", "Craiova", "Rimnicu Vilcea", "Fagaras", "Bucarest", "Pitesti",
               "Giurgiu", "Urziceni", "Hirsova", "Eforie", "Vaslui", "Iasi", "Neamt"]
 cities = []
-start_city = "Oradea"
-end_city = "Neamt"
+start_city = "Drobeta"
+end_city = "Eforie"
 
 def CreateCitiesGraph():
     # creare le citta
@@ -109,6 +109,7 @@ def CreateCitiesGraph():
 
 # GENETIC FUNCTIONS
 
+
 def gen(rndm,args):
     individual = [start_city]
     while individual[-1] != end_city:
@@ -133,7 +134,6 @@ def eval(individual, args): #fitness function: negativo della somma delle distan
                 (c,cost) = prevCity
                 totalCost += cost
     return -totalCost
-
 # END GENETIC FUNCTIONS
 
 
