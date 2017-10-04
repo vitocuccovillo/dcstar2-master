@@ -163,7 +163,13 @@ def evaluate(individual, args):
         i+=1
         cityIndex = individual.index(i)
         cityName = city_names[cityIndex]
-        fitness += next((x for x in city.adjacentCities if x[0] == cityName), None)[1]
+        cc =  next((x for x in city.adjacentCities if x[0] == cityName), None)
+        if cc is None:
+            fitness = 10000
+            break
+        else:
+            (c,cost) = cc
+            fitness += cost
     return -fitness
 
 # END GENETIC FUNCTIONS
