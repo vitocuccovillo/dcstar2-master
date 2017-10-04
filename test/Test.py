@@ -154,22 +154,25 @@ def generate(rndm, args):
     return individual
 
 def evaluate(individual, args):
-    fitness = 0
-    i = 1
-    cityIndex = individual.index(i)
-    cityName = city_names[cityIndex]
-    while cityName != end_city:
-        city: City = next((x for x in cities if x.name == cityName), None)
-        i+=1
+    fitness = 10000
+    try:
+        i = 1
         cityIndex = individual.index(i)
         cityName = city_names[cityIndex]
-        cc =  next((x for x in city.adjacentCities if x[0] == cityName), None)
-        if cc is None:
-            fitness = 10000
-            break
-        else:
-            (c,cost) = cc
-            fitness += cost
+        while cityName != end_city:
+            city: City = next((x for x in cities if x.name == cityName), None)
+            i+=1
+            cityIndex = individual.index(i)
+            cityName = city_names[cityIndex]
+            cc =  next((x for x in city.adjacentCities if x[0] == cityName), None)
+            if cc is None:
+                fitness = 10000
+                break
+            else:
+                (c,cost) = cc
+                fitness += cost
+    except:
+        pass
     return -fitness
 
 # END GENETIC FUNCTIONS
@@ -184,14 +187,14 @@ genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=50,
                                              mutation_rate=0.1,
                                              pop_size=10)
 bestIndividual = genetic_sols[0]
-print("SOLUZIONE ALGORITMO GENETICO: " + str(bestIndividual))
-
-solAdapter = SolutionAdapter()
+solAdapter = SolutionAdapter(city_names)
 bestGASol = solAdapter.AdaptGASolution(bestIndividual)
+
+print("SOLUZIONE ALGORITMO GENETICO: " + str(bestGASol))
 
 dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
 
-cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
-#cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+#cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
 solution = astar(cp)
 print("SOLUZIONE A*:" + str(solution))
