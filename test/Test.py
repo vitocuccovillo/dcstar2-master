@@ -11,7 +11,7 @@ city_names = ["Arad", "Oradea", "Zerind", "Sibiu", "Timisoara", "Lugoj", "Mehadi
               "Drobeta", "Craiova", "Rimnicu Vilcea", "Fagaras", "Bucarest", "Pitesti",
               "Giurgiu", "Urziceni", "Hirsova", "Eforie", "Vaslui", "Iasi", "Neamt"]
 cities = []
-start_city = "Drobeta"
+start_city = "Oradea"
 end_city = "Eforie"
 
 def CreateCitiesGraph():
@@ -73,13 +73,13 @@ def CreateCitiesGraph():
     cc = next((x for x in cities if x.name == "Bucarest"), None)
     cc.addAdjacent("Giurgiu", 90)
     cc.addAdjacent("Fagaras", 211)
-    cc.addAdjacent("Pitesti", 101)
+    cc.addAdjacent("Pitesti", 101) #101
     cc.addAdjacent("Urziceni", 85)
 
     cc = next((x for x in cities if x.name == "Pitesti"), None)
     cc.addAdjacent("Rimnicu Vilcea", 97)
     cc.addAdjacent("Craiova", 138)
-    cc.addAdjacent("Bucarest", 101)
+    cc.addAdjacent("Bucarest", 101) #101
 
     cc = next((x for x in cities if x.name == "Urziceni"), None)
     cc.addAdjacent("Hirsova", 98)

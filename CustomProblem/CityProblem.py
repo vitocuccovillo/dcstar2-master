@@ -126,12 +126,12 @@ class CityProblem(Problem):
         cc.addAdjacent("Arad", 140)
         cc.addAdjacent("Oradea", 151)
         cc.addAdjacent("Fagaras", 99)
-        cc.addAdjacent("Rimnicu Vilcea", 80)
+        cc.addAdjacent("Rimnicu Vilcea", 80) #80
 
         cc = next((x for x in self.cities if x.name == "Rimnicu Vilcea"), None)
         cc.addAdjacent("Pitesti", 97)
         cc.addAdjacent("Craiova", 146)
-        cc.addAdjacent("Sibiu", 80)
+        cc.addAdjacent("Sibiu", 80)#80
 
         cc = next((x for x in self.cities if x.name == "Drobeta"), None)
         cc.addAdjacent("Mehadia", 75)
@@ -149,13 +149,13 @@ class CityProblem(Problem):
         cc = next((x for x in self.cities if x.name == "Bucarest"), None)
         cc.addAdjacent("Giurgiu", 90)
         cc.addAdjacent("Fagaras", 211)
-        cc.addAdjacent("Pitesti", 101)
+        cc.addAdjacent("Pitesti", 101) #101
         cc.addAdjacent("Urziceni", 85)
 
         cc = next((x for x in self.cities if x.name == "Pitesti"), None)
         cc.addAdjacent("Rimnicu Vilcea", 97)
         cc.addAdjacent("Craiova", 138)
-        cc.addAdjacent("Bucarest", 101)
+        cc.addAdjacent("Bucarest", 101) #101
 
         cc = next((x for x in self.cities if x.name == "Urziceni"), None)
         cc.addAdjacent("Hirsova", 98)
