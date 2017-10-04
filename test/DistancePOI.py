@@ -1,6 +1,6 @@
 # Distance è una classe che nel suo costruttore prende in input uno stato
 # espone poi una funzione che accetta in input un altro stato di interesse
-# e ne restituisce la distanza fra il primo stato ed il secondo stato
+# e ne restituisce la distanza fra il primo stato ed il nuovo stato
 
 class DistancePOI():
 
