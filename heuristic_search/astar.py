@@ -2,7 +2,6 @@ from heuristic_search.pqueue import PriorityQueue
 from heuristic_search.node import Node
 from test.Problem import Problem
 from itertools import zip_longest
-import operator
 
 
 def astar(problem:Problem):
@@ -20,7 +19,7 @@ def astar(problem:Problem):
 
     while not front.empty():
         (path_estimated_cost, current_node) = front.get()
-        print("ESPANSIONE: " + str(current_node.state))
+        print("ESPANSIONE: " + str(current_node.state) + str(path_estimated_cost))
         numExpansions += 1
         current_state = current_node.state
         if not problem.unique_successors:
