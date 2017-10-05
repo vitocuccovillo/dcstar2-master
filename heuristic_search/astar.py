@@ -20,6 +20,7 @@ def astar(problem:Problem):
 
     while not front.empty():
         (path_estimated_cost, current_node) = front.get()
+        print("ESPANSIONE: " + str(current_node.state))
         numExpansions += 1
         current_state = current_node.state
         if not problem.unique_successors:

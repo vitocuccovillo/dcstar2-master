@@ -9,4 +9,5 @@ class DistancePOI():
         self.distance_function = _distance_function
 
     def getDistance(self, new_state): #misura la distanza fra self.state e new_state
-        return self.distance_function(self.state, new_state)
+        distance = self.distance_function(self.state, new_state)
+        return distance
