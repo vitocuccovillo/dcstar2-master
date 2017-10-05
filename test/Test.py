@@ -182,20 +182,20 @@ def evaluate(individual, args):
 # ----- MAIN START ----- #
 CreateCitiesGraph()
 
-inspyredWp = InspyredImpl(generate,evaluate) # genera una soluzione con il GA
-genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=50,
-                                             num_elites=1,
-                                             mutation_rate=0.1,
-                                             pop_size=10)
-bestIndividual = genetic_sols[0]
+#inspyredWp = InspyredImpl(generate,evaluate) # genera una soluzione con il GA
+#genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=50,
+#                                             num_elites=1,
+#                                             mutation_rate=0.1,
+#                                             pop_size=10)
+#bestIndividual = genetic_sols[0]
 solAdapter = SolutionAdapter(city_names)
-bestGASol = solAdapter.AdaptGASolution(bestIndividual)
-
+#bestGASol = solAdapter.AdaptGASolution(bestIndividual)
+bestGASol = ["Oradea","Zerind","Arad","Sibiu","Fagaras","Bucarest","Urziceni","Hirsova","Eforie"]
 print("SOLUZIONE ALGORITMO GENETICO: " + str(bestGASol))
 
 dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
 
-#cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
-cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+#cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
 solution = astar(cp)
 print("SOLUZIONE A*:" + str(solution))

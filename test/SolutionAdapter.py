@@ -7,19 +7,19 @@ class SolutionAdapter(): #uniforma le soluzioni per renderle confrontabili
         self.args = _args
 
 
-    #def AdaptGASolution(self, GASolution):
-    #    return GASolution.candidate
     def AdaptGASolution(self, GASolution):
-        solution = []
-        for i in range(1,len(GASolution.candidate)):
-            try:
-                cityIndex = GASolution.candidate.index(i)
-                if cityIndex != 0:
-                    city = self.args[cityIndex]
-                    solution.append(city)
-            except:
-                pass
-        return solution
+        return GASolution
+    # def AdaptGASolution(self, GASolution):
+    #     solution = []
+    #     for i in range(1,len(GASolution.candidate)):
+    #         try:
+    #             cityIndex = GASolution.candidate.index(i)
+    #             if cityIndex != 0:
+    #                 city = self.args[cityIndex]
+    #                 solution.append(city)
+    #         except:
+    #             pass
+    #     return solution
 
 
     def AdaptAStarSolution(self, AStarSolution):
