@@ -98,8 +98,8 @@ class CityProblem(Problem):
 
         # crea il grafo
         cc = next((x for x in self.cities if x.name == "Arad"), None)
-        cc.addAdjacent("Zerind", 75)
-        cc.addAdjacent("Sibiu", 140)
+        cc.addAdjacent("Zerind", 0)#75
+        cc.addAdjacent("Sibiu", 151) #140
         cc.addAdjacent("Timisoara", 118)
 
         cc = next((x for x in self.cities if x.name == "Timisoara"), None)
@@ -115,15 +115,15 @@ class CityProblem(Problem):
         cc.addAdjacent("Lugoj", 70)
 
         cc = next((x for x in self.cities if x.name == "Zerind"), None)
-        cc.addAdjacent("Arad", 75)
-        cc.addAdjacent("Oradea", 71)
+        cc.addAdjacent("Arad", 0) #75
+        cc.addAdjacent("Oradea", 0) #71
 
         cc = next((x for x in self.cities if x.name == "Oradea"), None)
         cc.addAdjacent("Sibiu", 151)
-        cc.addAdjacent("Zerind", 71)
+        cc.addAdjacent("Zerind", 0)#71
 
         cc = next((x for x in self.cities if x.name == "Sibiu"), None)
-        cc.addAdjacent("Arad", 140)
+        cc.addAdjacent("Arad", 151)#140
         cc.addAdjacent("Oradea", 151)
         cc.addAdjacent("Fagaras", 99)
         cc.addAdjacent("Rimnicu Vilcea", 80) #80
