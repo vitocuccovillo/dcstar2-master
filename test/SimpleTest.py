@@ -7,8 +7,11 @@ from test.SolutionAdapter import SolutionAdapter
 city_names = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 start_city = "A"
 end_city = "J"
+
+# ----------- INIZIO -----------------
+
 solAdapter = SolutionAdapter(city_names)
-bestGASol = ["A","C","E","I","J"]
+bestGASol = ["A","C","F","I","E","I","H","J"]
 print("SOLUZIONE ALGORITMO GENETICO: " + str(bestGASol))
 
 dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
