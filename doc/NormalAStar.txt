@@ -1,0 +1,15 @@
+SOLUZIONE ALGORITMO GENETICO: ['A', 'C', 'F', 'I', 'E', 'I', 'H', 'J']
+ESPANSIONE: [('A', 0)] f*: [1]
+ESPANSIONE: [('A', 0), ('B', 10)] f*: [11]
+ESPANSIONE: [('A', 0), ('C', 10)] f*: [11]
+ESPANSIONE: [('A', 0), ('B', 10), ('D', 10)] f*: [21]
+ESPANSIONE: [('A', 0), ('B', 10), ('E', 10)] f*: [21]
+ESPANSIONE: [('A', 0), ('C', 10), ('F', 10)] f*: [21]
+ESPANSIONE: [('A', 0), ('B', 10), ('A', 10)] f*: [21]
+ESPANSIONE: [('A', 0), ('B', 10), ('D', 10), ('G', 5)] f*: [26]
+ESPANSIONE: [('A', 0), ('B', 10), ('D', 10), ('G', 5), ('D', 5)] f*: [31]
+ESPANSIONE: [('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5)] f*: [31]
+Numero espansioni A*: 10
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5)]
+
+SENZA
