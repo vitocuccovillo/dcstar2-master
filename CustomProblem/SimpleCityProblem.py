@@ -1,4 +1,6 @@
 from CustomProblem.City import City
+from test import SolutionAdapter
+from test.DistancePOI import DistancePOI
 from test.Problem import Problem
 
 
@@ -66,7 +68,7 @@ class SimpleCityProblem(Problem):
 
     def h(self, path):
         result = 1
-        return result
+        return (result,)
 
 
     def g(self, path):
