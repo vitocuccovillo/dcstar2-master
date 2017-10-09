@@ -12,7 +12,7 @@ city_names = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 start_city = "A"
 end_city = "J"
 
-
+#---------- FUNCTIONS ---------------
 def CreateCitiesGraph():
     # creare le citta
     for c in city_names:
@@ -74,6 +74,7 @@ def generate(rndm, args):
             individual[cityIndex] = i
     return individual
 
+
 def evaluate(individual, args):
     fitness = 10000
     if city_names[individual.index(1)] == start_city and city_names[individual.index(max(individual))] == end_city:
@@ -96,6 +97,8 @@ def evaluate(individual, args):
         except:
             pass
     return -fitness
+
+#END FUNCTIONS ----------------------
 
 
 # ----------- INIZIO -----------------
