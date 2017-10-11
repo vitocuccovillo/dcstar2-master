@@ -26,8 +26,8 @@ class SimpleCityProblem(Problem):
             self.cities.append(ct)
 
         cc = next((x for x in self.cities if x.name == "A"), None)
-        cc.addAdjacent("B", 10)
         cc.addAdjacent("C", 10)
+        cc.addAdjacent("B", 10)
         cc = next((x for x in self.cities if x.name == "B"), None)
         cc.addAdjacent("A", 10)
         cc.addAdjacent("D", 10)

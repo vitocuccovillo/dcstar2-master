@@ -10,5 +10,3 @@ ESPANSIONE: [('A', 0), ('B', 10), ('D', 10), ('G', 5)] f*: [26, 2]
 ESPANSIONE: [('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5)] f*: [31, 1]
 Numero espansioni A*: 9
 SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5)]
-
-CON ALGORITMO GENETICO
