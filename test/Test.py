@@ -1,11 +1,11 @@
-from test.InspyredImpl import InspyredImpl
-from test.DistancePOI import *
-from heuristic_search.astar import astar
+import random
+
+from CustomProblem.City import City
 from CustomProblem.CityProblem import CityProblem
+from heuristic_search.astar import astar
+from test.DistancePOI import *
 from test.LevenshteinDistance import *
 from test.SolutionAdapter import SolutionAdapter
-from CustomProblem.City import City
-import random
 
 city_names = ["Arad", "Oradea", "Zerind", "Sibiu", "Timisoara", "Lugoj", "Mehadia",
               "Drobeta", "Craiova", "Rimnicu Vilcea", "Fagaras", "Bucarest", "Pitesti",

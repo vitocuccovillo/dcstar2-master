@@ -1,6 +1,8 @@
-from test.GeneticAbstractWrapper import GeneticAbstractWrapper
-import inspyred
 import random
+
+import inspyred
+
+from GAGuide.GeneticAbstractWrapper import GeneticAbstractWrapper
 
 
 class InspyredImpl(GeneticAbstractWrapper):
