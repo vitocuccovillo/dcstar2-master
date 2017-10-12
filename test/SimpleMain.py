@@ -209,9 +209,9 @@ if __name__ == '__main__':
         simpleMain.CreateCitiesGraph()
         inspyredWp = InspyredImpl(SimpleMain.generate,SimpleMain.evaluate) # genera una soluzione con il GA
         genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=200,
-                                                     num_elites=10,
+                                                     num_elites=1,
                                                      mutation_rate=0.1,
-                                                     pop_size=20)
+                                                     pop_size=10)
         bestIndividual = genetic_sols[0]
         solAdapter = SolutionAdapter(simpleMain.city_names)
         bestGASol = solAdapter.AdaptGASolution(bestIndividual)
