@@ -227,5 +227,7 @@ if __name__ == '__main__':
         (solution,numExpansions) = astar(cp)
         avgExpansions = avgExpansions + numExpansions
         print("SOLUZIONE A*:" + str(solution))
+        print("------------------------------")
 
+    print("")
     print("MEDIA ESPANSIONI: " + str(avgExpansions / numIterations))
