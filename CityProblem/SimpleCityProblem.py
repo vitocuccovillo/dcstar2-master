@@ -1,7 +1,7 @@
-from CustomProblem.City import City
-from test import SolutionAdapter
-from test.DistancePOI import DistancePOI
-from test.Problem import Problem
+from CityProblem.City import City
+from core import SolutionAdapter
+from core.DistancePOI import DistancePOI
+from core.Problem import Problem
 
 
 class SimpleCityProblem(Problem):
@@ -9,7 +9,7 @@ class SimpleCityProblem(Problem):
     cities = []
     city_names = ["A","B","C","D","E","F","G","H","I","J"]
 
-    def __init__(self,_startCity, _endCity, _distance:DistancePOI, _solAdapter:SolutionAdapter):
+    def __init__(self, _startCity, _endCity, _distance:DistancePOI, _solAdapter: SolutionAdapter):
         self.startCity = _startCity
         self.endCity = _endCity
         self.distance = _distance

@@ -1,7 +1,8 @@
-from CustomProblem.City import City
-from test.Problem import Problem
-from test.DistancePOI import DistancePOI
-from test.SolutionAdapter import SolutionAdapter
+from CityProblem.City import City
+from core.DistancePOI import DistancePOI
+from core.Problem import Problem
+from core.SolutionAdapter import SolutionAdapter
+
 
 class CityProblem(Problem):
 

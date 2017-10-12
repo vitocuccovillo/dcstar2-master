@@ -1,11 +1,13 @@
-from CustomProblem.SimpleCityProblem import SimpleCityProblem
-from heuristic_search.astar import astar
-from test.DistancePOI import DistancePOI
-from test.InspyredImpl import InspyredImpl
-from test.LevenshteinDistance import levenshtein
-from test.SolutionAdapter import SolutionAdapter
-from CustomProblem.City import City
 import random
+
+from test.InspyredImpl import InspyredImpl
+
+from CityProblem.City import City
+from CityProblem.SimpleCityProblem import SimpleCityProblem
+from core.DistancePOI import DistancePOI
+from core.SolutionAdapter import SolutionAdapter
+from core.heuristic_search.astar import astar
+from test.LevenshteinDistance import levenshtein
 
 cities = []
 city_names = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]

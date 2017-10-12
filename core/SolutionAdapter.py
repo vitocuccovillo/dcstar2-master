@@ -7,8 +7,6 @@ class SolutionAdapter(): #uniforma le soluzioni per renderle confrontabili
         self.args = _args
 
 
-    #def AdaptGASolution(self, GASolution):
-        #return GASolution
     def AdaptGASolution(self, GASolution):
         solution = []
         for i in range(1,len(GASolution.candidate)):
