@@ -18,7 +18,7 @@ class SimpleMain():
     #city_names = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
     city_names = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V"]
     start_city = "A"
-    end_city = "J"
+    end_city = "U"
 
 #---------- FUNCTIONS ---------------
     # def CreateCitiesGraph(self):
