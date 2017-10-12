@@ -1,6 +1,6 @@
 import random
 
-from test.InspyredImpl import InspyredImpl
+from GAGuide.InspyredImpl import InspyredImpl
 
 from CityProblem.City import City
 from CityProblem.SimpleCityProblem import SimpleCityProblem
