@@ -1,7 +1,7 @@
 from core.DistancePOI import DistancePOI
 from core.Problem import Problem
 from core.SolutionAdapter import SolutionAdapter
-from test.CityProblem import City
+from test.CityProblem.City import City
 
 
 class CityProblem(Problem):

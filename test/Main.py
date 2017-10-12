@@ -1,12 +1,12 @@
 import random
 
-from CityProblem.City import City
-
+from test.CityProblem.City import City
 from core.DistancePOI import *
 from core.SolutionAdapter import SolutionAdapter
 from core.heuristic_search.astar import astar
 from test.CityProblem.CityProblem import CityProblem
 from test.LevenshteinDistance import *
+from core.Problem import Problem
 
 city_names = ["Arad", "Oradea", "Zerind", "Sibiu", "Timisoara", "Lugoj", "Mehadia",
               "Drobeta", "Craiova", "Rimnicu Vilcea", "Fagaras", "Bucarest", "Pitesti",
@@ -154,6 +154,7 @@ def generate(rndm, args):
             individual[cityIndex] = i
     return individual
 
+
 def evaluate(individual, args):
     fitness = 10000
     if city_names[individual.index(1)] == start_city and city_names[individual.index(max(individual))] == end_city:
@@ -196,7 +197,7 @@ print("SOLUZIONE ALGORITMO GENETICO: " + str(bestGASol))
 
 dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
 
-cp = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+cp:Problem = CityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
 #cp = CityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
 solution = astar(cp)
 print("SOLUZIONE A*:" + str(solution))
