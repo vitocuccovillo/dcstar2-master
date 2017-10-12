@@ -1,12 +1,13 @@
 import random
 
-from GAGuide.InspyredImpl import InspyredImpl
+from test.CityProblem.City import City
 
-from CityProblem.City import City
-from CityProblem.SimpleCityProblem import SimpleCityProblem
+from GAGuide.InspyredImpl import InspyredImpl
 from core.DistancePOI import DistancePOI
+from core.Problem import Problem
 from core.SolutionAdapter import SolutionAdapter
 from core.heuristic_search.astar import astar
+from test.CityProblem.SimpleCityProblem import SimpleCityProblem
 from test.LevenshteinDistance import levenshtein
 
 cities = []
@@ -103,24 +104,26 @@ def evaluate(individual, args):
 #END FUNCTIONS ----------------------
 
 
-# ----------- INIZIO -----------------
-CreateCitiesGraph()
-inspyredWp = InspyredImpl(generate,evaluate) # genera una soluzione con il GA
-genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=100,
-                                             num_elites=1,
-                                             mutation_rate=0.1,
-                                             pop_size=10)
-bestIndividual = genetic_sols[0]
-solAdapter = SolutionAdapter(city_names)
-bestGASol = solAdapter.AdaptGASolution(bestIndividual)
+if __name__ == "__main__":
 
-#bestGASol = ["A","C","F","I","E","I","H","J"]
-#bestGASol = ["A","B","D","G","H","J"]
-print("SOLUZIONE ALGORITMO GENETICO: " + str(bestGASol))
+    # ----------- INIZIO -----------------
+    CreateCitiesGraph()
+    inspyredWp = InspyredImpl(generate,evaluate) # genera una soluzione con il GA
+    genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=100,
+                                                 num_elites=1,
+                                                 mutation_rate=0.1,
+                                                 pop_size=10)
+    bestIndividual = genetic_sols[0]
+    solAdapter = SolutionAdapter(city_names)
+    bestGASol = solAdapter.AdaptGASolution(bestIndividual)
 
-dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
+    #bestGASol = ["A","C","F","I","E","I","H","J"]
+    #bestGASol = ["A","B","D","G","H","J"]
+    print("SOLUZIONE ALGORITMO GENETICO: " + str(bestGASol))
 
-cp = SimpleCityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
-#cp = SimpleCityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
-solution = astar(cp)
-print("SOLUZIONE A*:" + str(solution))
+    dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
+
+    cp:Problem = SimpleCityProblem(start_city,end_city,dist, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+    #cp = SimpleCityProblem(start_city,end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+    solution = astar(cp)
+    print("SOLUZIONE A*:" + str(solution))
