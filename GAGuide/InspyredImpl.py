@@ -27,7 +27,7 @@ class InspyredImpl(GeneticAbstractWrapper):
         rand = random.Random()
         rand.seed(10)
         ga = inspyred.ec.GA(rand)
-        ga.observer = inspyred.ec.observers.stats_observer,
+        #ga.observer = inspyred.ec.observers.stats_observer,
         ga.terminator = inspyred.ec.terminators.evaluation_termination,
         final_pop = ga.evolve(evaluator = InspyredImpl.eval_individual,
                               generator = InspyredImpl.gen_individual,

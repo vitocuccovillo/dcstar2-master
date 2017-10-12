@@ -21,6 +21,48 @@ class SimpleMain():
     end_city = "J"
 
 #---------- FUNCTIONS ---------------
+    # def CreateCitiesGraph(self):
+    #     # creare le citta
+    #     for c in self.city_names:
+    #         ct = City(c)
+    #         self.cities.append(ct)
+    #
+    #     cc = next((x for x in self.cities if x.name == "A"), None)
+    #     cc.addAdjacent("C", 10)
+    #     cc.addAdjacent("B", 10)
+    #     cc = next((x for x in self.cities if x.name == "B"), None)
+    #     cc.addAdjacent("A", 10)
+    #     cc.addAdjacent("D", 10)
+    #     cc.addAdjacent("E", 10)
+    #     cc = next((x for x in self.cities if x.name == "C"), None)
+    #     cc.addAdjacent("A", 10)
+    #     cc.addAdjacent("F", 10)
+    #     cc.addAdjacent("E", 10)
+    #     cc = next((x for x in self.cities if x.name == "D"), None)
+    #     cc.addAdjacent("B", 10)
+    #     cc.addAdjacent("G", 5)
+    #     cc = next((x for x in self.cities if x.name == "E"), None)
+    #     cc.addAdjacent("B", 10)
+    #     cc.addAdjacent("C", 10)
+    #     cc.addAdjacent("H", 10)
+    #     cc.addAdjacent("I", 10)
+    #     cc = next((x for x in self.cities if x.name == "F"), None)
+    #     cc.addAdjacent("I", 10)
+    #     cc.addAdjacent("C", 10)
+    #     cc = next((x for x in self.cities if x.name == "G"), None)
+    #     cc.addAdjacent("D", 5)
+    #     cc.addAdjacent("J", 5)
+    #     cc = next((x for x in self.cities if x.name == "H"), None)
+    #     cc.addAdjacent("J", 10)
+    #     cc.addAdjacent("G", 10)
+    #     cc.addAdjacent("E", 10)
+    #     cc = next((x for x in self.cities if x.name == "I"), None)
+    #     cc.addAdjacent("E", 10)
+    #     cc.addAdjacent("F", 10)
+    #     cc.addAdjacent("J", 20)
+    #     cc = next((x for x in self.cities if x.name == "J"), None)
+    #     cc.addAdjacent("G", 5)
+    #     cc.addAdjacent("I", 20)
     def CreateCitiesGraph(self):
         # creare le citta
         for c in self.city_names:
@@ -30,10 +72,12 @@ class SimpleMain():
         cc = next((x for x in self.cities if x.name == "A"), None)
         cc.addAdjacent("C", 10)
         cc.addAdjacent("B", 10)
+        cc.addAdjacent("K", 10)
         cc = next((x for x in self.cities if x.name == "B"), None)
         cc.addAdjacent("A", 10)
         cc.addAdjacent("D", 10)
         cc.addAdjacent("E", 10)
+        cc.addAdjacent("K", 10)
         cc = next((x for x in self.cities if x.name == "C"), None)
         cc.addAdjacent("A", 10)
         cc.addAdjacent("F", 10)
@@ -49,6 +93,7 @@ class SimpleMain():
         cc = next((x for x in self.cities if x.name == "F"), None)
         cc.addAdjacent("I", 10)
         cc.addAdjacent("C", 10)
+        cc.addAdjacent("N", 10)
         cc = next((x for x in self.cities if x.name == "G"), None)
         cc.addAdjacent("D", 5)
         cc.addAdjacent("J", 5)
@@ -60,10 +105,52 @@ class SimpleMain():
         cc.addAdjacent("E", 10)
         cc.addAdjacent("F", 10)
         cc.addAdjacent("J", 20)
+        cc.addAdjacent("T", 10)
         cc = next((x for x in self.cities if x.name == "J"), None)
         cc.addAdjacent("G", 5)
         cc.addAdjacent("I", 20)
-
+        cc.addAdjacent("M", 10)
+        cc.addAdjacent("T", 10)
+        cc.addAdjacent("V", 5)
+        cc = next((x for x in self.cities if x.name == "K"), None)
+        cc.addAdjacent("A", 10)
+        cc.addAdjacent("B", 10)
+        cc.addAdjacent("L", 10)
+        cc = next((x for x in self.cities if x.name == "L"), None)
+        cc.addAdjacent("K", 10)
+        cc.addAdjacent("M", 10)
+        cc = next((x for x in self.cities if x.name == "M"), None)
+        cc.addAdjacent("L", 10)
+        cc.addAdjacent("J", 10)
+        cc = next((x for x in self.cities if x.name == "N"), None)
+        cc.addAdjacent("F", 10)
+        cc.addAdjacent("O", 5)
+        cc = next((x for x in self.cities if x.name == "O"), None)
+        cc.addAdjacent("N", 10)
+        cc.addAdjacent("P", 10)
+        cc.addAdjacent("Q", 5)
+        cc = next((x for x in self.cities if x.name == "P"), None)
+        cc.addAdjacent("O", 10)
+        cc.addAdjacent("R", 5)
+        cc = next((x for x in self.cities if x.name == "Q"), None)
+        cc.addAdjacent("O", 5)
+        cc.addAdjacent("S", 10)
+        cc = next((x for x in self.cities if x.name == "R"), None)
+        cc.addAdjacent("P", 5)
+        cc.addAdjacent("T", 10)
+        cc = next((x for x in self.cities if x.name == "S"), None)
+        cc.addAdjacent("Q", 10)
+        cc.addAdjacent("U", 5)
+        cc = next((x for x in self.cities if x.name == "T"), None)
+        cc.addAdjacent("R", 10)
+        cc.addAdjacent("I", 10)
+        cc.addAdjacent("J", 10)
+        cc = next((x for x in self.cities if x.name == "U"), None)
+        cc.addAdjacent("S", 5)
+        cc.addAdjacent("V", 20)
+        cc = next((x for x in self.cities if x.name == "V"), None)
+        cc.addAdjacent("J", 5)
+        cc.addAdjacent("U", 20)
 
     def generate(rndm, args):
         startIndex = SimpleMain.city_names.index(SimpleMain.start_city)
@@ -116,13 +203,13 @@ if __name__ == '__main__':
     numIterations = 100
     avgExpansions = 0
 
-    for i in range(1,numIterations):
+    for i in range(0,numIterations):
 
         simpleMain = SimpleMain();
         simpleMain.CreateCitiesGraph()
         inspyredWp = InspyredImpl(SimpleMain.generate,SimpleMain.evaluate) # genera una soluzione con il GA
         genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=200,
-                                                     num_elites=5,
+                                                     num_elites=10,
                                                      mutation_rate=0.1,
                                                      pop_size=20)
         bestIndividual = genetic_sols[0]
