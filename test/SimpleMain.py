@@ -17,7 +17,7 @@ class SimpleMain():
     start_city = "A"
     end_city = "J"
 
-    #---------- FUNCTIONS ---------------
+#---------- FUNCTIONS ---------------
     def CreateCitiesGraph(self):
         # creare le citta
         for c in self.city_names:
@@ -103,7 +103,7 @@ class SimpleMain():
                 pass
         return -fitness
 
-    #END FUNCTIONS ----------------------
+#END FUNCTIONS ----------------------
 
 
 if __name__ == '__main__':
