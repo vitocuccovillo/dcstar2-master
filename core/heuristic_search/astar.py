@@ -19,14 +19,14 @@ def astar(problem:Problem):
 
     while not front.empty():
         (path_estimated_cost, current_node) = front.get()
-        print("ESPANSIONE: " + str(current_node.path()) + " f*: " + str(path_estimated_cost))
+        #print("ESPANSIONE: " + str(current_node.path()) + " f*: " + str(path_estimated_cost))
         numExpansions += 1
         current_state = current_node.state
         if not problem.unique_successors:
             closed.put((path_estimated_cost, current_node))
         if problem.goal(current_state):
             print("Numero espansioni A*: " + str(numExpansions))
-            return current_node.path()  # solution found!
+            return current_node.path(), numExpansions  # solution found!
         else:
             successors = problem.successors(current_state)
             for successor_state in successors:
