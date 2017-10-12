@@ -1,5 +1,7 @@
 import random
 
+import time
+
 from test.CityProblem.City import City
 
 from GAGuide.InspyredImpl import InspyredImpl
