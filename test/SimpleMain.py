@@ -200,7 +200,7 @@ if __name__ == '__main__':
 
     # ----------- INIZIO -----------------
 
-    numIterations = 100
+    numIterations = 20
     avgExpansions = 0
 
     for i in range(0,numIterations):
