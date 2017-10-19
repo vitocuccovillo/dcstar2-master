@@ -1,0 +1,402 @@
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'D', 'E', 'J', 'I', 'M', 'L', 'F', 'T', 'N', 'O', 'Q', 'S', 'P', 'R']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'E', 'C', 'L', 'F', 'J', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'E', 'I', 'F', 'M', 'C', 'O', 'P', 'T', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'H', 'J', 'I', 'D', 'C', 'F', 'O', 'P', 'K', 'L', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'D', 'L', 'M', 'J', 'I', 'T', 'E', 'H', 'G', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'E', 'C', 'G', 'F', 'V', 'I', 'R', 'L', 'P', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'E', 'B', 'I', 'R', 'P', 'D', 'N', 'Q', 'J', 'L', 'M', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'I', 'K', 'E', 'H', 'D', 'B', 'M', 'G', 'N', 'O', 'J', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'C', 'F', 'L', 'M', 'T', 'R', 'P', 'O', 'Q', 'N', 'J', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'C', 'F', 'I', 'M', 'J', 'P', 'V', 'N', 'O', 'Q', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'I', 'B', 'K', 'N', 'J', 'P', 'E', 'H', 'D', 'G', 'M', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'E', 'I', 'J', 'H', 'G', 'D', 'R', 'P', 'O', 'Q', 'N', 'V']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'E', 'B', 'J', 'I', 'V', 'G', 'T', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'C', 'F', 'I', 'E', 'J', 'L', 'G', 'D', 'B', 'H', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'D', 'E', 'I', 'F', 'H', 'G', 'L', 'J', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'E', 'I', 'H', 'J', 'L', 'N', 'T', 'R', 'P', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'K', 'L', 'J', 'I', 'R', 'E', 'P', 'O', 'N', 'T', 'M', 'V', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'E', 'B', 'F', 'I', 'R', 'P', 'H', 'G', 'S', 'N', 'D', 'V']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'I', 'J', 'E', 'H', 'G', 'D', 'B', 'K', 'L', 'P', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'L', 'D', 'G', 'J', 'R', 'P', 'I', 'M', 'E', 'H', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'L', 'C', 'F', 'E', 'I', 'H', 'J', 'T', 'N', 'O', 'P', 'R', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'C', 'E', 'F', 'I', 'J', 'T', 'R', 'P', 'D', 'G', 'L', 'N', 'Q', 'S', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'H', 'G', 'J', 'I', 'F', 'K', 'D', 'V', 'T']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'C', 'J', 'D', 'I', 'F', 'E', 'T', 'N', 'G', 'P', 'R', 'Q', 'S']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'K', 'B', 'I', 'J', 'D', 'T', 'M', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'E', 'G', 'D', 'B', 'I', 'J', 'T', 'R', 'N', 'O', 'P', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'E', 'B', 'D', 'G', 'J', 'F', 'T', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'C', 'F', 'D', 'L', 'G', 'T', 'H', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'E', 'H', 'I', 'J', 'M', 'L', 'V', 'D', 'N', 'K', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'M', 'I', 'G', 'D', 'C', 'F', 'E', 'H', 'S', 'N', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'C', 'E', 'H', 'G', 'D', 'I', 'M', 'J', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'L', 'B', 'D', 'E', 'C', 'I', 'H', 'J', 'O', 'G', 'V', 'R', 'P', 'Q', 'F', 'M']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'E', 'F', 'T', 'D', 'P', 'J', 'M', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'K', 'G', 'D', 'B', 'J', 'T', 'I', 'R', 'M', 'L', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'D', 'G', 'K', 'C', 'J', 'M', 'N', 'T', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'M', 'D', 'G', 'E', 'N', 'O', 'P', 'Q', 'T', 'V', 'R', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'C', 'F', 'I', 'E', 'J', 'H', 'G', 'T', 'L', 'M', 'N', 'O', 'Q', 'S', 'P', 'V']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'E', 'C', 'F', 'I', 'J', 'L', 'K', 'G', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'E', 'C', 'L', 'J', 'G', 'P', 'O', 'Q', 'S', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'L', 'B', 'J', 'I', 'F', 'C', 'E', 'D', 'G', 'N', 'H', 'R', 'P', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'D', 'G', 'J', 'E', 'C', 'F', 'I', 'L', 'H', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'L', 'M', 'J', 'I', 'F', 'T', 'R', 'P', 'N', 'O', 'Q', 'S']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'D', 'K', 'L', 'M', 'J', 'G', 'F', 'I', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'L', 'D', 'G', 'J', 'I', 'F', 'C', 'E', 'H', 'T']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'D', 'I', 'G', 'J', 'T', 'L', 'P', 'O', 'N', 'F', 'M', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'G', 'L', 'I', 'R', 'P', 'F', 'N', 'O', 'Q', 'S', 'V']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'E', 'H', 'P', 'G', 'D', 'B', 'K', 'L', 'R', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'C', 'E', 'F', 'B', 'I', 'T', 'J', 'N', 'O', 'P', 'R', 'Q', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'D', 'C', 'G', 'J', 'T', 'R', 'I', 'F', 'V', 'S', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'D', 'E', 'H', 'G', 'J', 'T', 'R', 'P', 'O', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'I', 'J', 'F', 'N', 'T', 'R', 'H', 'V', 'M', 'L', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'C', 'E', 'I', 'J', 'T', 'M', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'C', 'F', 'K', 'D', 'G', 'J', 'I', 'N', 'O', 'P', 'R', 'T', 'V', 'M', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'K', 'B', 'M', 'J', 'V', 'G', 'D', 'E', 'H', 'R', 'P', 'N', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'K', 'B', 'I', 'D', 'F', 'E', 'N', 'O', 'Q', 'P', 'R', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'D', 'G', 'J', 'M', 'I', 'F', 'C', 'R', 'V', 'N', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'L', 'B', 'E', 'C', 'D', 'G', 'F', 'V', 'J', 'I', 'T', 'R', 'P', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'L', 'B', 'C', 'F', 'I', 'E', 'J', 'T', 'G', 'D', 'N', 'M', 'P', 'R', 'Q', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'C', 'E', 'H', 'J', 'I', 'L', 'F', 'M', 'G', 'D', 'P', 'Q', 'S']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'E', 'G', 'J', 'V', 'T', 'R', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'E', 'H', 'K', 'F', 'B', 'G', 'T', 'M', 'R', 'P', 'O', 'Q', 'N', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'G', 'E', 'H', 'L', 'M', 'I', 'F', 'R', 'J', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'C', 'F', 'H', 'J', 'T', 'I', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'E', 'F', 'I', 'K', 'L', 'B', 'H', 'J', 'T', 'R', 'P', 'G', 'D', 'N', 'O', 'Q', 'S']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'L', 'D', 'G', 'H', 'T', 'I', 'J', 'O', 'F', 'N', 'M', 'V']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'C', 'L', 'M', 'D', 'E', 'T', 'G', 'F', 'N', 'O', 'Q', 'P', 'R', 'S', 'H', 'V']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'M', 'E', 'J', 'O', 'I', 'Q', 'S', 'G', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'H', 'J', 'I', 'G', 'D', 'K', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'D', 'E', 'F', 'T', 'V', 'I', 'H', 'M', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'I', 'E', 'H', 'J', 'G', 'D', 'L', 'T', 'R', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'L', 'C', 'F', 'I', 'J', 'T', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'I', 'E', 'B', 'H', 'G', 'D', 'N', 'M', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'K', 'G', 'E', 'B', 'D', 'J', 'R', 'N', 'P', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'C', 'E', 'D', 'G', 'L', 'I', 'H', 'F', 'R', 'P', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'E', 'H', 'T', 'R', 'J', 'P', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'C', 'L', 'M', 'J', 'G', 'E', 'I', 'O', 'P', 'R', 'D', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'L', 'M', 'C', 'E', 'D', 'F', 'N', 'R', 'G', 'J', 'H', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'L', 'G', 'C', 'N', 'O', 'Q', 'P', 'R', 'T', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'E', 'F', 'B', 'D', 'J', 'N', 'G', 'M', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'M', 'D', 'J', 'V', 'T', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'E', 'H', 'G', 'N', 'O', 'P', 'R', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'B', 'D', 'G', 'K', 'E', 'H', 'J', 'N', 'O', 'P', 'Q', 'S', 'I', 'T', 'M']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'C', 'E', 'B', 'D', 'F', 'T', 'I', 'H', 'G', 'J', 'L', 'R', 'P', 'O', 'Q', 'S', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'I', 'J', 'L', 'S', 'B', 'D', 'E', 'H', 'T', 'R', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'C', 'E', 'H', 'J', 'V', 'T', 'R', 'P', 'Q', 'S', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'H', 'I', 'G', 'D', 'T', 'R', 'P', 'O', 'Q', 'N', 'V', 'S']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'E', 'K', 'T', 'D', 'B', 'R', 'J', 'G', 'F', 'H', 'L', 'M', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'L', 'B', 'C', 'F', 'N', 'I', 'J', 'M', 'T', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'C', 'E', 'H', 'J', 'T', 'R', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'C', 'E', 'B', 'D', 'J', 'G', 'H', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'E', 'H', 'T', 'G', 'N', 'O', 'P', 'Q', 'R', 'J', 'I', 'L', 'M', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'C', 'H', 'I', 'F', 'D', 'J', 'T', 'V', 'M', 'G', 'R', 'P', 'O', 'N', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'B', 'E', 'I', 'J', 'K', 'N', 'O', 'D', 'G', 'H', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'K', 'B', 'D', 'G', 'J', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'L', 'C', 'F', 'I', 'O', 'D', 'G', 'J', 'T', 'R', 'V', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['C', 'F', 'I', 'E', 'B', 'R', 'H', 'J', 'N', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['K', 'B', 'L', 'M', 'J', 'G', 'I', 'E', 'T', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'K', 'C', 'E', 'H', 'F', 'G', 'D', 'I', 'V', 'N', 'O', 'U']
+Numero espansioni A*: 30
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'D', 'G', 'E', 'H', 'J', 'I', 'F', 'C', 'L', 'M', 'V', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('B', 10), ('D', 10), ('G', 5), ('J', 5), ('V', 5), ('U', 20)]
+------------------------------
+SOLUZIONE ALGORITMO GENETICO: ['B', 'E', 'C', 'J', 'M', 'L', 'F', 'K', 'G', 'H', 'Q', 'S', 'U']
+Numero espansioni A*: 29
+SOLUZIONE A*:[('A', 0), ('C', 10), ('F', 10), ('N', 10), ('O', 5), ('Q', 5), ('S', 10), ('U', 5)]
+------------------------------
+
+MEDIA ESPANSIONI: 29.5
