@@ -200,7 +200,7 @@ if __name__ == '__main__':
 
     # ----------- INIZIO -----------------
 
-    numIterations = 20
+    numIterations = 100 #RIPETIZIONI DELL'ESPERIMENTO
     avgExpansions = 0
 
     for i in range(0,numIterations):
@@ -216,14 +216,15 @@ if __name__ == '__main__':
         solAdapter = SolutionAdapter(simpleMain.city_names)
         bestGASol = solAdapter.AdaptGASolution(bestIndividual)
 
-        #bestGASol = ["A","C","F","I","E","I","H","J"]
-        #bestGASol = ["A","B","D","G","H","J"]
         print("SOLUZIONE ALGORITMO GENETICO: " + str(bestGASol))
 
-        dist = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
+        distancePOI = DistancePOI(bestGASol,levenshtein) # genera un oggetto DistancePoi prendendo in input la soluz. del GA ed una funzione
 
-        cp:Problem = SimpleCityProblem2(SimpleMain.start_city,SimpleMain.end_city,dist,solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
-        #cp = SimpleCityProblem2(SimpleMain.start_city,SimpleMain.end_city,None, solAdapter) # costruisco il problema (fornisco in input le città e l'oggetto dist)
+        #ESEGUE A* CON GUIDA GENETICA
+        cp:Problem = SimpleCityProblem2(SimpleMain.start_city,SimpleMain.end_city,distancePOI,solAdapter)
+        #ESEGUE A* SENZA GUIDA GENETICA
+        #cp = SimpleCityProblem2(SimpleMain.start_city,SimpleMain.end_city,None, solAdapter)
+
         (solution,numExpansions) = astar(cp)
         avgExpansions = avgExpansions + numExpansions
         print("SOLUZIONE A*:" + str(solution))
