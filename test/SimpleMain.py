@@ -208,7 +208,7 @@ if __name__ == '__main__':
         simpleMain = SimpleMain();
         simpleMain.CreateCitiesGraph()
         inspyredWp = InspyredImpl(SimpleMain.generate,SimpleMain.evaluate) # genera una soluzione con il GA
-        genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=200,
+        genetic_sols = inspyredWp.getBestIndividuals(max_evaluations=100,
                                                      num_elites=1,
                                                      mutation_rate=0.1,
                                                      pop_size=10)
